@@ -30,5 +30,23 @@
 </html>
 
 <style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+header, main{
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
 </style>
