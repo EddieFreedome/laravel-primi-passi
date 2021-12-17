@@ -1,7 +1,5 @@
 @php
-    
-    $titolo = "Benvenuto!";
-
+    $titolo = "Scopri chi siamo"
 @endphp
 
 
@@ -19,14 +17,14 @@
         <nav>
             <ul>
                 <li><a href="/home">Home</a></li>
-                <li><a href="/about-us">About-Us</a></li>
+                <li><a href="/about-us">About Us</a></li>
 
                 
             </ul>
         </nav>
     </header>
     <main>
-        <h1>{{$titolo}}</h1>
+        <h1>{{$titolo}}!</h1>
     </main>
 </body>
 </html>

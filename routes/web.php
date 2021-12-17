@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function(){
+
+//il route associa il pezzo di URL al componente da visualizzare.
+Route::get('/home', function(){
     return view ('home');
+});
+
+Route::get('/about-us', function(){
+    return view ('about');
 });
